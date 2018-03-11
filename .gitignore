@@ -1,2 +1,5 @@
 .idea/
 .docker-sync/
+
+docroot
+web
