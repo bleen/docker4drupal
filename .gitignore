@@ -4,3 +4,7 @@
 
 docroot
 web
+
+settings.*.php
+settings.php
+
