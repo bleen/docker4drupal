@@ -31,6 +31,7 @@ services:
 #      PHP_BLACKFIRE: 1
     volumes:
       - ./:/var/www/html
+      - ~/.ssh:/root/.ssh
 ## For macOS users (https://wodby.com/stacks/drupal/docs/local/docker-for-mac/)
 #      - ./:/var/www/html:cached # User-guided caching
 #      - docker-sync:/var/www/html # Docker-sync
@@ -50,6 +51,7 @@ services:
 #      NGINX_DRUPAL_FILE_PROXY_URL: http://example.com
     volumes:
       - ./:/var/www/html
+      - ~/.ssh:/root/.ssh
 # For macOS users (https://wodby.com/stacks/drupal/docs/local/docker-for-mac/)
 #      - ./:/var/www/html:cached # User-guided caching
 #      - docker-sync:/var/www/html # Docker-sync
